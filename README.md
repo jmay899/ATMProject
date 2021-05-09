@@ -1,4 +1,4 @@
-# ATM Project
+# Jacob Mayfield's ATM Project
 
 ## About the project
 

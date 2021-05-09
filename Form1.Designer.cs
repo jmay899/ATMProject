@@ -55,6 +55,10 @@
             this.depositMenuButton = new System.Windows.Forms.Button();
             this.exitMenuButton = new System.Windows.Forms.Button();
             this.transfer1TableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.label9 = new System.Windows.Forms.Label();
+            this.transfer1ListBox = new System.Windows.Forms.ListBox();
+            this.transfer1SelectButton = new System.Windows.Forms.Button();
+            this.transfer1CancelButton = new System.Windows.Forms.Button();
             this.check1TableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.check1ListBox = new System.Windows.Forms.ListBox();
@@ -111,31 +115,27 @@
             this.check2TableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.check2Label = new System.Windows.Forms.Label();
             this.check2ConfirmButton = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.transfer1ListBox = new System.Windows.Forms.ListBox();
-            this.transfer1SelectButton = new System.Windows.Forms.Button();
-            this.transfer1CancelButton = new System.Windows.Forms.Button();
             this.transfer2TableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.label10 = new System.Windows.Forms.Label();
             this.transfer2ListBox = new System.Windows.Forms.ListBox();
             this.transfer2SelectButton = new System.Windows.Forms.Button();
             this.transfer2CancelButton = new System.Windows.Forms.Button();
             this.transfer3TableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
+            this.transferAmtButton0 = new System.Windows.Forms.Button();
+            this.transferAmtButton9 = new System.Windows.Forms.Button();
+            this.transferAmtButton8 = new System.Windows.Forms.Button();
+            this.transferAmtButton7 = new System.Windows.Forms.Button();
+            this.transferAmtButton6 = new System.Windows.Forms.Button();
+            this.transferAmtButton5 = new System.Windows.Forms.Button();
+            this.transferAmtButton4 = new System.Windows.Forms.Button();
+            this.transferAmtButton3 = new System.Windows.Forms.Button();
+            this.transferAmtButton2 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.transferAmtLabel = new System.Windows.Forms.Label();
             this.transfer3SubmitButton = new System.Windows.Forms.Button();
             this.transfer3BackspaceButton = new System.Windows.Forms.Button();
             this.transfer3CancelButton = new System.Windows.Forms.Button();
             this.transferAmtButton1 = new System.Windows.Forms.Button();
-            this.transferAmtButton2 = new System.Windows.Forms.Button();
-            this.transferAmtButton3 = new System.Windows.Forms.Button();
-            this.transferAmtButton4 = new System.Windows.Forms.Button();
-            this.transferAmtButton5 = new System.Windows.Forms.Button();
-            this.transferAmtButton6 = new System.Windows.Forms.Button();
-            this.transferAmtButton7 = new System.Windows.Forms.Button();
-            this.transferAmtButton8 = new System.Windows.Forms.Button();
-            this.transferAmtButton9 = new System.Windows.Forms.Button();
-            this.transferAmtButton0 = new System.Windows.Forms.Button();
             this.transferCodeTableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.transferCodeLabel = new System.Windows.Forms.Label();
             this.transferCodeConfirmButton = new System.Windows.Forms.Button();
@@ -166,6 +166,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pinTableLayoutPanel.SetColumnSpan(this.label1, 5);
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(444, 300);
@@ -233,6 +234,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(3, 303);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(84, 144);
@@ -247,6 +249,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button2.ForeColor = System.Drawing.Color.Black;
             this.button2.Location = new System.Drawing.Point(93, 303);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(84, 144);
@@ -261,6 +264,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button3.ForeColor = System.Drawing.Color.Black;
             this.button3.Location = new System.Drawing.Point(183, 303);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(84, 144);
@@ -275,6 +279,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button4.ForeColor = System.Drawing.Color.Black;
             this.button4.Location = new System.Drawing.Point(273, 303);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(84, 144);
@@ -289,6 +294,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button5.ForeColor = System.Drawing.Color.Black;
             this.button5.Location = new System.Drawing.Point(363, 303);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(84, 144);
@@ -303,6 +309,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button6.ForeColor = System.Drawing.Color.Black;
             this.button6.Location = new System.Drawing.Point(453, 303);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(84, 144);
@@ -317,6 +324,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button7.ForeColor = System.Drawing.Color.Black;
             this.button7.Location = new System.Drawing.Point(543, 303);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(84, 144);
@@ -331,6 +339,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button8.ForeColor = System.Drawing.Color.Black;
             this.button8.Location = new System.Drawing.Point(633, 303);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(84, 144);
@@ -345,6 +354,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button9.ForeColor = System.Drawing.Color.Black;
             this.button9.Location = new System.Drawing.Point(723, 303);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(84, 144);
@@ -374,14 +384,16 @@
             this.pinSubmitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pinSubmitButton.BackColor = System.Drawing.Color.DodgerBlue;
             this.pinTableLayoutPanel.SetColumnSpan(this.pinSubmitButton, 4);
             this.pinSubmitButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.pinSubmitButton.ForeColor = System.Drawing.Color.White;
             this.pinSubmitButton.Location = new System.Drawing.Point(3, 453);
             this.pinSubmitButton.Name = "pinSubmitButton";
             this.pinSubmitButton.Size = new System.Drawing.Size(354, 144);
             this.pinSubmitButton.TabIndex = 12;
             this.pinSubmitButton.Text = "Submit";
-            this.pinSubmitButton.UseVisualStyleBackColor = true;
+            this.pinSubmitButton.UseVisualStyleBackColor = false;
             this.pinSubmitButton.Click += new System.EventHandler(this.pinSubmitButton_Click);
             // 
             // pinLabel
@@ -393,6 +405,7 @@
             this.pinLabel.BackColor = System.Drawing.Color.White;
             this.pinTableLayoutPanel.SetColumnSpan(this.pinLabel, 5);
             this.pinLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pinLabel.ForeColor = System.Drawing.Color.Black;
             this.pinLabel.Location = new System.Drawing.Point(453, 0);
             this.pinLabel.Name = "pinLabel";
             this.pinLabel.Size = new System.Drawing.Size(444, 300);
@@ -406,6 +419,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button0.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.button0.ForeColor = System.Drawing.Color.Black;
             this.button0.Location = new System.Drawing.Point(813, 303);
             this.button0.Name = "button0";
             this.button0.Size = new System.Drawing.Size(84, 144);
@@ -459,10 +473,11 @@
             this.menuTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.menuTableLayoutPanel.Name = "menuTableLayoutPanel";
             this.menuTableLayoutPanel.RowCount = 4;
-            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 30F));
-            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45F));
             this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
+            this.menuTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.menuTableLayoutPanel.Size = new System.Drawing.Size(900, 600);
             this.menuTableLayoutPanel.TabIndex = 1;
             this.menuTableLayoutPanel.Visible = false;
@@ -475,9 +490,10 @@
             this.checkMenuButton.AutoSize = true;
             this.checkMenuButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.checkMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.checkMenuButton.Location = new System.Drawing.Point(3, 333);
+            this.checkMenuButton.ForeColor = System.Drawing.Color.Black;
+            this.checkMenuButton.Location = new System.Drawing.Point(3, 393);
             this.checkMenuButton.Name = "checkMenuButton";
-            this.checkMenuButton.Size = new System.Drawing.Size(444, 144);
+            this.checkMenuButton.Size = new System.Drawing.Size(444, 114);
             this.checkMenuButton.TabIndex = 3;
             this.checkMenuButton.Text = "Check Balance";
             this.checkMenuButton.UseVisualStyleBackColor = true;
@@ -491,11 +507,12 @@
             this.label3.AutoSize = true;
             this.menuTableLayoutPanel.SetColumnSpan(this.label3, 2);
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label3.ForeColor = System.Drawing.Color.DodgerBlue;
             this.label3.Location = new System.Drawing.Point(3, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(894, 180);
+            this.label3.Size = new System.Drawing.Size(894, 270);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Welcome to ZZZ Bank ATM";
+            this.label3.Text = "Welcome to Jacob\'s Bank ATM!\r\nSelect your transaction option.";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // transferMenuButton
@@ -504,9 +521,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.transferMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.transferMenuButton.Location = new System.Drawing.Point(3, 183);
+            this.transferMenuButton.ForeColor = System.Drawing.Color.Black;
+            this.transferMenuButton.Location = new System.Drawing.Point(3, 273);
             this.transferMenuButton.Name = "transferMenuButton";
-            this.transferMenuButton.Size = new System.Drawing.Size(444, 144);
+            this.transferMenuButton.Size = new System.Drawing.Size(444, 114);
             this.transferMenuButton.TabIndex = 1;
             this.transferMenuButton.Text = "Transfer Money";
             this.transferMenuButton.UseVisualStyleBackColor = true;
@@ -518,9 +536,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.withdrawMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.withdrawMenuButton.Location = new System.Drawing.Point(453, 183);
+            this.withdrawMenuButton.ForeColor = System.Drawing.Color.Black;
+            this.withdrawMenuButton.Location = new System.Drawing.Point(453, 273);
             this.withdrawMenuButton.Name = "withdrawMenuButton";
-            this.withdrawMenuButton.Size = new System.Drawing.Size(444, 144);
+            this.withdrawMenuButton.Size = new System.Drawing.Size(444, 114);
             this.withdrawMenuButton.TabIndex = 2;
             this.withdrawMenuButton.Text = "Withdraw Money";
             this.withdrawMenuButton.UseVisualStyleBackColor = true;
@@ -532,9 +551,10 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.depositMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.depositMenuButton.Location = new System.Drawing.Point(453, 333);
+            this.depositMenuButton.ForeColor = System.Drawing.Color.Black;
+            this.depositMenuButton.Location = new System.Drawing.Point(453, 393);
             this.depositMenuButton.Name = "depositMenuButton";
-            this.depositMenuButton.Size = new System.Drawing.Size(444, 144);
+            this.depositMenuButton.Size = new System.Drawing.Size(444, 114);
             this.depositMenuButton.TabIndex = 4;
             this.depositMenuButton.Text = "Deposit Money";
             this.depositMenuButton.UseVisualStyleBackColor = true;
@@ -545,14 +565,16 @@
             this.exitMenuButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitMenuButton.BackColor = System.Drawing.Color.DarkGray;
             this.menuTableLayoutPanel.SetColumnSpan(this.exitMenuButton, 2);
             this.exitMenuButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.exitMenuButton.Location = new System.Drawing.Point(3, 483);
+            this.exitMenuButton.ForeColor = System.Drawing.Color.Black;
+            this.exitMenuButton.Location = new System.Drawing.Point(3, 513);
             this.exitMenuButton.Name = "exitMenuButton";
-            this.exitMenuButton.Size = new System.Drawing.Size(894, 114);
+            this.exitMenuButton.Size = new System.Drawing.Size(894, 84);
             this.exitMenuButton.TabIndex = 5;
             this.exitMenuButton.Text = "Exit";
-            this.exitMenuButton.UseVisualStyleBackColor = true;
+            this.exitMenuButton.UseVisualStyleBackColor = false;
             this.exitMenuButton.Click += new System.EventHandler(this.exitMenuButton_Click);
             // 
             // transfer1TableLayoutPanel
@@ -579,6 +601,63 @@
             this.transfer1TableLayoutPanel.Size = new System.Drawing.Size(900, 600);
             this.transfer1TableLayoutPanel.TabIndex = 2;
             this.transfer1TableLayoutPanel.Visible = false;
+            // 
+            // label9
+            // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label9.AutoSize = true;
+            this.transfer1TableLayoutPanel.SetColumnSpan(this.label9, 2);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(3, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(894, 120);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Select account to transfer from";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // transfer1ListBox
+            // 
+            this.transfer1ListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transfer1TableLayoutPanel.SetColumnSpan(this.transfer1ListBox, 2);
+            this.transfer1ListBox.FormattingEnabled = true;
+            this.transfer1ListBox.ItemHeight = 31;
+            this.transfer1ListBox.Location = new System.Drawing.Point(3, 123);
+            this.transfer1ListBox.Name = "transfer1ListBox";
+            this.transfer1ListBox.Size = new System.Drawing.Size(894, 345);
+            this.transfer1ListBox.TabIndex = 1;
+            // 
+            // transfer1SelectButton
+            // 
+            this.transfer1SelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transfer1SelectButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.transfer1SelectButton.ForeColor = System.Drawing.Color.White;
+            this.transfer1SelectButton.Location = new System.Drawing.Point(3, 483);
+            this.transfer1SelectButton.Name = "transfer1SelectButton";
+            this.transfer1SelectButton.Size = new System.Drawing.Size(444, 114);
+            this.transfer1SelectButton.TabIndex = 2;
+            this.transfer1SelectButton.Text = "Select";
+            this.transfer1SelectButton.UseVisualStyleBackColor = false;
+            this.transfer1SelectButton.Click += new System.EventHandler(this.transfer1SelectButton_Click);
+            // 
+            // transfer1CancelButton
+            // 
+            this.transfer1CancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transfer1CancelButton.Location = new System.Drawing.Point(453, 483);
+            this.transfer1CancelButton.Name = "transfer1CancelButton";
+            this.transfer1CancelButton.Size = new System.Drawing.Size(444, 114);
+            this.transfer1CancelButton.TabIndex = 3;
+            this.transfer1CancelButton.Text = "Cancel";
+            this.transfer1CancelButton.UseVisualStyleBackColor = true;
+            this.transfer1CancelButton.Click += new System.EventHandler(this.transfer1CancelButton_Click);
             // 
             // check1TableLayoutPanel
             // 
@@ -613,6 +692,7 @@
             this.label8.AutoSize = true;
             this.check1TableLayoutPanel.SetColumnSpan(this.label8, 2);
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label8.ForeColor = System.Drawing.Color.Black;
             this.label8.Location = new System.Drawing.Point(3, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(894, 120);
@@ -638,12 +718,14 @@
             this.check1SelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.check1SelectButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.check1SelectButton.ForeColor = System.Drawing.Color.White;
             this.check1SelectButton.Location = new System.Drawing.Point(3, 483);
             this.check1SelectButton.Name = "check1SelectButton";
             this.check1SelectButton.Size = new System.Drawing.Size(444, 114);
             this.check1SelectButton.TabIndex = 2;
             this.check1SelectButton.Text = "Select";
-            this.check1SelectButton.UseVisualStyleBackColor = true;
+            this.check1SelectButton.UseVisualStyleBackColor = false;
             this.check1SelectButton.Click += new System.EventHandler(this.check1SelectButton_Click);
             // 
             // check1BackButton
@@ -692,6 +774,7 @@
             this.label6.AutoSize = true;
             this.deposit1TableLayoutPanel.SetColumnSpan(this.label6, 2);
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(3, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(894, 120);
@@ -717,12 +800,14 @@
             this.deposit1SelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.deposit1SelectButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.deposit1SelectButton.ForeColor = System.Drawing.Color.White;
             this.deposit1SelectButton.Location = new System.Drawing.Point(3, 483);
             this.deposit1SelectButton.Name = "deposit1SelectButton";
             this.deposit1SelectButton.Size = new System.Drawing.Size(444, 114);
             this.deposit1SelectButton.TabIndex = 2;
             this.deposit1SelectButton.Text = "Select";
-            this.deposit1SelectButton.UseVisualStyleBackColor = true;
+            this.deposit1SelectButton.UseVisualStyleBackColor = false;
             this.deposit1SelectButton.Click += new System.EventHandler(this.deposit1SelectButton_Click);
             // 
             // deposit1BackButton
@@ -730,6 +815,7 @@
             this.deposit1BackButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.deposit1BackButton.ForeColor = System.Drawing.Color.Navy;
             this.deposit1BackButton.Location = new System.Drawing.Point(453, 483);
             this.deposit1BackButton.Name = "deposit1BackButton";
             this.deposit1BackButton.Size = new System.Drawing.Size(444, 114);
@@ -770,6 +856,7 @@
             this.label4.AutoSize = true;
             this.withdraw1TableLayoutPanel.SetColumnSpan(this.label4, 2);
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(3, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(894, 120);
@@ -782,13 +869,15 @@
             this.Withdraw1SelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Withdraw1SelectButton.BackColor = System.Drawing.Color.DodgerBlue;
             this.Withdraw1SelectButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.Withdraw1SelectButton.ForeColor = System.Drawing.Color.White;
             this.Withdraw1SelectButton.Location = new System.Drawing.Point(3, 483);
             this.Withdraw1SelectButton.Name = "Withdraw1SelectButton";
             this.Withdraw1SelectButton.Size = new System.Drawing.Size(444, 114);
             this.Withdraw1SelectButton.TabIndex = 2;
             this.Withdraw1SelectButton.Text = "Select";
-            this.Withdraw1SelectButton.UseVisualStyleBackColor = true;
+            this.Withdraw1SelectButton.UseVisualStyleBackColor = false;
             this.Withdraw1SelectButton.Click += new System.EventHandler(this.Withdraw1SelectButton_Click);
             // 
             // withdraw1ListBox
@@ -869,6 +958,7 @@
             this.withdrawAmtButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton5.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton5.Location = new System.Drawing.Point(363, 303);
             this.withdrawAmtButton5.Name = "withdrawAmtButton5";
             this.withdrawAmtButton5.Size = new System.Drawing.Size(84, 144);
@@ -882,6 +972,7 @@
             this.withdrawAmtButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton4.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton4.Location = new System.Drawing.Point(273, 303);
             this.withdrawAmtButton4.Name = "withdrawAmtButton4";
             this.withdrawAmtButton4.Size = new System.Drawing.Size(84, 144);
@@ -895,6 +986,7 @@
             this.withdrawAmtButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton3.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton3.Location = new System.Drawing.Point(183, 303);
             this.withdrawAmtButton3.Name = "withdrawAmtButton3";
             this.withdrawAmtButton3.Size = new System.Drawing.Size(84, 144);
@@ -911,6 +1003,7 @@
             this.label5.AutoSize = true;
             this.withdraw2TableLayoutPanel.SetColumnSpan(this.label5, 5);
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(3, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(444, 300);
@@ -923,6 +1016,7 @@
             this.withdrawAmtButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton1.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton1.Location = new System.Drawing.Point(3, 303);
             this.withdrawAmtButton1.Name = "withdrawAmtButton1";
             this.withdrawAmtButton1.Size = new System.Drawing.Size(84, 144);
@@ -936,6 +1030,7 @@
             this.withdrawAmtButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton2.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton2.Location = new System.Drawing.Point(93, 303);
             this.withdrawAmtButton2.Name = "withdrawAmtButton2";
             this.withdrawAmtButton2.Size = new System.Drawing.Size(84, 144);
@@ -949,6 +1044,7 @@
             this.withdrawAmtButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton6.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton6.Location = new System.Drawing.Point(453, 303);
             this.withdrawAmtButton6.Name = "withdrawAmtButton6";
             this.withdrawAmtButton6.Size = new System.Drawing.Size(84, 144);
@@ -962,6 +1058,7 @@
             this.withdrawAmtButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton7.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton7.Location = new System.Drawing.Point(543, 303);
             this.withdrawAmtButton7.Name = "withdrawAmtButton7";
             this.withdrawAmtButton7.Size = new System.Drawing.Size(84, 144);
@@ -975,6 +1072,7 @@
             this.withdrawAmtButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton8.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton8.Location = new System.Drawing.Point(633, 303);
             this.withdrawAmtButton8.Name = "withdrawAmtButton8";
             this.withdrawAmtButton8.Size = new System.Drawing.Size(84, 144);
@@ -988,6 +1086,7 @@
             this.withdrawAmtButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton9.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton9.Location = new System.Drawing.Point(723, 303);
             this.withdrawAmtButton9.Name = "withdrawAmtButton9";
             this.withdrawAmtButton9.Size = new System.Drawing.Size(84, 144);
@@ -1001,6 +1100,7 @@
             this.withdrawAmtButton0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawAmtButton0.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtButton0.Location = new System.Drawing.Point(813, 303);
             this.withdrawAmtButton0.Name = "withdrawAmtButton0";
             this.withdrawAmtButton0.Size = new System.Drawing.Size(84, 144);
@@ -1018,6 +1118,7 @@
             this.withdrawAmtLabel.BackColor = System.Drawing.Color.White;
             this.withdraw2TableLayoutPanel.SetColumnSpan(this.withdrawAmtLabel, 5);
             this.withdrawAmtLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.withdrawAmtLabel.ForeColor = System.Drawing.Color.Black;
             this.withdrawAmtLabel.Location = new System.Drawing.Point(453, 0);
             this.withdrawAmtLabel.Name = "withdrawAmtLabel";
             this.withdrawAmtLabel.Size = new System.Drawing.Size(444, 300);
@@ -1044,13 +1145,15 @@
             this.withdraw2SubmitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdraw2SubmitButton.BackColor = System.Drawing.Color.DodgerBlue;
             this.withdraw2TableLayoutPanel.SetColumnSpan(this.withdraw2SubmitButton, 4);
+            this.withdraw2SubmitButton.ForeColor = System.Drawing.Color.White;
             this.withdraw2SubmitButton.Location = new System.Drawing.Point(3, 453);
             this.withdraw2SubmitButton.Name = "withdraw2SubmitButton";
             this.withdraw2SubmitButton.Size = new System.Drawing.Size(354, 144);
             this.withdraw2SubmitButton.TabIndex = 1;
             this.withdraw2SubmitButton.Text = "Submit";
-            this.withdraw2SubmitButton.UseVisualStyleBackColor = true;
+            this.withdraw2SubmitButton.UseVisualStyleBackColor = false;
             this.withdraw2SubmitButton.Click += new System.EventHandler(this.withdraw2SubmitButton_Click);
             // 
             // withdraw2BackspaceButton
@@ -1095,6 +1198,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.withdrawCodeLabel.AutoSize = true;
             this.withdrawCodeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.withdrawCodeLabel.ForeColor = System.Drawing.Color.Black;
             this.withdrawCodeLabel.Location = new System.Drawing.Point(3, 0);
             this.withdrawCodeLabel.Name = "withdrawCodeLabel";
             this.withdrawCodeLabel.Size = new System.Drawing.Size(894, 510);
@@ -1107,13 +1211,15 @@
             this.withdrawCodeConfirmButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.withdrawCodeConfirmButton.BackColor = System.Drawing.Color.DodgerBlue;
             this.withdrawCodeConfirmButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.withdrawCodeConfirmButton.ForeColor = System.Drawing.Color.White;
             this.withdrawCodeConfirmButton.Location = new System.Drawing.Point(3, 513);
             this.withdrawCodeConfirmButton.Name = "withdrawCodeConfirmButton";
             this.withdrawCodeConfirmButton.Size = new System.Drawing.Size(894, 84);
             this.withdrawCodeConfirmButton.TabIndex = 1;
             this.withdrawCodeConfirmButton.Text = "Confirm";
-            this.withdrawCodeConfirmButton.UseVisualStyleBackColor = true;
+            this.withdrawCodeConfirmButton.UseVisualStyleBackColor = false;
             this.withdrawCodeConfirmButton.Click += new System.EventHandler(this.withdrawCodeConfirmButton_Click);
             // 
             // deposit2TableLayoutPanel
@@ -1166,6 +1272,7 @@
             this.depositAmtButton0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton0.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton0.Location = new System.Drawing.Point(813, 303);
             this.depositAmtButton0.Name = "depositAmtButton0";
             this.depositAmtButton0.Size = new System.Drawing.Size(84, 144);
@@ -1179,6 +1286,7 @@
             this.depositAmtButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton9.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton9.Location = new System.Drawing.Point(723, 303);
             this.depositAmtButton9.Name = "depositAmtButton9";
             this.depositAmtButton9.Size = new System.Drawing.Size(84, 144);
@@ -1192,6 +1300,7 @@
             this.depositAmtButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton8.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton8.Location = new System.Drawing.Point(633, 303);
             this.depositAmtButton8.Name = "depositAmtButton8";
             this.depositAmtButton8.Size = new System.Drawing.Size(84, 144);
@@ -1205,6 +1314,7 @@
             this.depositAmtButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton7.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton7.Location = new System.Drawing.Point(543, 303);
             this.depositAmtButton7.Name = "depositAmtButton7";
             this.depositAmtButton7.Size = new System.Drawing.Size(84, 144);
@@ -1218,6 +1328,7 @@
             this.depositAmtButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton6.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton6.Location = new System.Drawing.Point(453, 303);
             this.depositAmtButton6.Name = "depositAmtButton6";
             this.depositAmtButton6.Size = new System.Drawing.Size(84, 144);
@@ -1231,6 +1342,7 @@
             this.depositAmtButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton5.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton5.Location = new System.Drawing.Point(363, 303);
             this.depositAmtButton5.Name = "depositAmtButton5";
             this.depositAmtButton5.Size = new System.Drawing.Size(84, 144);
@@ -1244,6 +1356,7 @@
             this.depositAmtButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton4.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton4.Location = new System.Drawing.Point(273, 303);
             this.depositAmtButton4.Name = "depositAmtButton4";
             this.depositAmtButton4.Size = new System.Drawing.Size(84, 144);
@@ -1257,6 +1370,7 @@
             this.depositAmtButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton3.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton3.Location = new System.Drawing.Point(183, 303);
             this.depositAmtButton3.Name = "depositAmtButton3";
             this.depositAmtButton3.Size = new System.Drawing.Size(84, 144);
@@ -1270,6 +1384,7 @@
             this.depositAmtButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton2.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton2.Location = new System.Drawing.Point(93, 303);
             this.depositAmtButton2.Name = "depositAmtButton2";
             this.depositAmtButton2.Size = new System.Drawing.Size(84, 144);
@@ -1286,6 +1401,7 @@
             this.label7.AutoSize = true;
             this.deposit2TableLayoutPanel.SetColumnSpan(this.label7, 5);
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(3, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(444, 300);
@@ -1302,6 +1418,7 @@
             this.depositAmtLabel.BackColor = System.Drawing.Color.White;
             this.deposit2TableLayoutPanel.SetColumnSpan(this.depositAmtLabel, 5);
             this.depositAmtLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.depositAmtLabel.ForeColor = System.Drawing.Color.Black;
             this.depositAmtLabel.Location = new System.Drawing.Point(453, 0);
             this.depositAmtLabel.Name = "depositAmtLabel";
             this.depositAmtLabel.Size = new System.Drawing.Size(444, 300);
@@ -1342,13 +1459,15 @@
             this.deposit2SubmitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.deposit2SubmitButton.BackColor = System.Drawing.Color.DodgerBlue;
             this.deposit2TableLayoutPanel.SetColumnSpan(this.deposit2SubmitButton, 4);
+            this.deposit2SubmitButton.ForeColor = System.Drawing.Color.White;
             this.deposit2SubmitButton.Location = new System.Drawing.Point(3, 453);
             this.deposit2SubmitButton.Name = "deposit2SubmitButton";
             this.deposit2SubmitButton.Size = new System.Drawing.Size(354, 144);
             this.deposit2SubmitButton.TabIndex = 4;
             this.deposit2SubmitButton.Text = "Submit";
-            this.deposit2SubmitButton.UseVisualStyleBackColor = true;
+            this.deposit2SubmitButton.UseVisualStyleBackColor = false;
             this.deposit2SubmitButton.Click += new System.EventHandler(this.deposit2SubmitButton_Click);
             // 
             // depositAmtButton1
@@ -1356,6 +1475,7 @@
             this.depositAmtButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositAmtButton1.ForeColor = System.Drawing.Color.Black;
             this.depositAmtButton1.Location = new System.Drawing.Point(3, 303);
             this.depositAmtButton1.Name = "depositAmtButton1";
             this.depositAmtButton1.Size = new System.Drawing.Size(84, 144);
@@ -1376,7 +1496,7 @@
             this.depositCodeTableLayoutPanel.Controls.Add(this.depositCodeConfirmButton, 0, 1);
             this.depositCodeTableLayoutPanel.Controls.Add(this.depositCodeLabel, 0, 0);
             this.depositCodeTableLayoutPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.depositCodeTableLayoutPanel.ForeColor = System.Drawing.Color.Navy;
+            this.depositCodeTableLayoutPanel.ForeColor = System.Drawing.Color.Black;
             this.depositCodeTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
             this.depositCodeTableLayoutPanel.Name = "depositCodeTableLayoutPanel";
             this.depositCodeTableLayoutPanel.RowCount = 2;
@@ -1391,12 +1511,14 @@
             this.depositCodeConfirmButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.depositCodeConfirmButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.depositCodeConfirmButton.ForeColor = System.Drawing.Color.White;
             this.depositCodeConfirmButton.Location = new System.Drawing.Point(3, 513);
             this.depositCodeConfirmButton.Name = "depositCodeConfirmButton";
             this.depositCodeConfirmButton.Size = new System.Drawing.Size(894, 84);
             this.depositCodeConfirmButton.TabIndex = 0;
             this.depositCodeConfirmButton.Text = "Confirm";
-            this.depositCodeConfirmButton.UseVisualStyleBackColor = true;
+            this.depositCodeConfirmButton.UseVisualStyleBackColor = false;
             this.depositCodeConfirmButton.Click += new System.EventHandler(this.depositCodeConfirmButton_Click);
             // 
             // depositCodeLabel
@@ -1442,6 +1564,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.check2Label.AutoSize = true;
             this.check2Label.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.check2Label.ForeColor = System.Drawing.Color.Black;
             this.check2Label.Location = new System.Drawing.Point(3, 0);
             this.check2Label.Name = "check2Label";
             this.check2Label.Size = new System.Drawing.Size(894, 510);
@@ -1454,67 +1577,15 @@
             this.check2ConfirmButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.check2ConfirmButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.check2ConfirmButton.ForeColor = System.Drawing.Color.White;
             this.check2ConfirmButton.Location = new System.Drawing.Point(3, 513);
             this.check2ConfirmButton.Name = "check2ConfirmButton";
             this.check2ConfirmButton.Size = new System.Drawing.Size(894, 84);
             this.check2ConfirmButton.TabIndex = 1;
             this.check2ConfirmButton.Text = "Confirm";
-            this.check2ConfirmButton.UseVisualStyleBackColor = true;
+            this.check2ConfirmButton.UseVisualStyleBackColor = false;
             this.check2ConfirmButton.Click += new System.EventHandler(this.check2ConfirmButton_Click);
-            // 
-            // label9
-            // 
-            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label9.AutoSize = true;
-            this.transfer1TableLayoutPanel.SetColumnSpan(this.label9, 2);
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
-            this.label9.Location = new System.Drawing.Point(3, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(894, 120);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Select account to transfer from";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // transfer1ListBox
-            // 
-            this.transfer1ListBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transfer1TableLayoutPanel.SetColumnSpan(this.transfer1ListBox, 2);
-            this.transfer1ListBox.FormattingEnabled = true;
-            this.transfer1ListBox.ItemHeight = 31;
-            this.transfer1ListBox.Location = new System.Drawing.Point(3, 123);
-            this.transfer1ListBox.Name = "transfer1ListBox";
-            this.transfer1ListBox.Size = new System.Drawing.Size(894, 345);
-            this.transfer1ListBox.TabIndex = 1;
-            // 
-            // transfer1SelectButton
-            // 
-            this.transfer1SelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transfer1SelectButton.Location = new System.Drawing.Point(3, 483);
-            this.transfer1SelectButton.Name = "transfer1SelectButton";
-            this.transfer1SelectButton.Size = new System.Drawing.Size(444, 114);
-            this.transfer1SelectButton.TabIndex = 2;
-            this.transfer1SelectButton.Text = "Select";
-            this.transfer1SelectButton.UseVisualStyleBackColor = true;
-            this.transfer1SelectButton.Click += new System.EventHandler(this.transfer1SelectButton_Click);
-            // 
-            // transfer1CancelButton
-            // 
-            this.transfer1CancelButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transfer1CancelButton.Location = new System.Drawing.Point(453, 483);
-            this.transfer1CancelButton.Name = "transfer1CancelButton";
-            this.transfer1CancelButton.Size = new System.Drawing.Size(444, 114);
-            this.transfer1CancelButton.TabIndex = 3;
-            this.transfer1CancelButton.Text = "Cancel";
-            this.transfer1CancelButton.UseVisualStyleBackColor = true;
-            this.transfer1CancelButton.Click += new System.EventHandler(this.transfer1CancelButton_Click);
             // 
             // transfer2TableLayoutPanel
             // 
@@ -1549,6 +1620,7 @@
             this.label10.AutoSize = true;
             this.transfer2TableLayoutPanel.SetColumnSpan(this.label10, 2);
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.Location = new System.Drawing.Point(3, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(894, 120);
@@ -1574,12 +1646,14 @@
             this.transfer2SelectButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.transfer2SelectButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.transfer2SelectButton.ForeColor = System.Drawing.Color.White;
             this.transfer2SelectButton.Location = new System.Drawing.Point(3, 483);
             this.transfer2SelectButton.Name = "transfer2SelectButton";
             this.transfer2SelectButton.Size = new System.Drawing.Size(444, 114);
             this.transfer2SelectButton.TabIndex = 2;
             this.transfer2SelectButton.Text = "Select";
-            this.transfer2SelectButton.UseVisualStyleBackColor = true;
+            this.transfer2SelectButton.UseVisualStyleBackColor = false;
             this.transfer2SelectButton.Click += new System.EventHandler(this.transfer2SelectButton_Click);
             // 
             // transfer2CancelButton
@@ -1639,6 +1713,132 @@
             this.transfer3TableLayoutPanel.TabIndex = 13;
             this.transfer3TableLayoutPanel.Visible = false;
             // 
+            // transferAmtButton0
+            // 
+            this.transferAmtButton0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton0.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton0.Location = new System.Drawing.Point(813, 303);
+            this.transferAmtButton0.Name = "transferAmtButton0";
+            this.transferAmtButton0.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton0.TabIndex = 14;
+            this.transferAmtButton0.Text = "0";
+            this.transferAmtButton0.UseVisualStyleBackColor = true;
+            this.transferAmtButton0.Click += new System.EventHandler(this.transferAmtButton0_Click);
+            // 
+            // transferAmtButton9
+            // 
+            this.transferAmtButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton9.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton9.Location = new System.Drawing.Point(723, 303);
+            this.transferAmtButton9.Name = "transferAmtButton9";
+            this.transferAmtButton9.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton9.TabIndex = 13;
+            this.transferAmtButton9.Text = "9";
+            this.transferAmtButton9.UseVisualStyleBackColor = true;
+            this.transferAmtButton9.Click += new System.EventHandler(this.transferAmtButton9_Click);
+            // 
+            // transferAmtButton8
+            // 
+            this.transferAmtButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton8.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton8.Location = new System.Drawing.Point(633, 303);
+            this.transferAmtButton8.Name = "transferAmtButton8";
+            this.transferAmtButton8.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton8.TabIndex = 12;
+            this.transferAmtButton8.Text = "8";
+            this.transferAmtButton8.UseVisualStyleBackColor = true;
+            this.transferAmtButton8.Click += new System.EventHandler(this.transferAmtButton8_Click);
+            // 
+            // transferAmtButton7
+            // 
+            this.transferAmtButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton7.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton7.Location = new System.Drawing.Point(543, 303);
+            this.transferAmtButton7.Name = "transferAmtButton7";
+            this.transferAmtButton7.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton7.TabIndex = 11;
+            this.transferAmtButton7.Text = "7";
+            this.transferAmtButton7.UseVisualStyleBackColor = true;
+            this.transferAmtButton7.Click += new System.EventHandler(this.transferAmtButton7_Click);
+            // 
+            // transferAmtButton6
+            // 
+            this.transferAmtButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton6.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton6.Location = new System.Drawing.Point(453, 303);
+            this.transferAmtButton6.Name = "transferAmtButton6";
+            this.transferAmtButton6.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton6.TabIndex = 10;
+            this.transferAmtButton6.Text = "6";
+            this.transferAmtButton6.UseVisualStyleBackColor = true;
+            this.transferAmtButton6.Click += new System.EventHandler(this.transferAmtButton6_Click);
+            // 
+            // transferAmtButton5
+            // 
+            this.transferAmtButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton5.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton5.Location = new System.Drawing.Point(363, 303);
+            this.transferAmtButton5.Name = "transferAmtButton5";
+            this.transferAmtButton5.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton5.TabIndex = 9;
+            this.transferAmtButton5.Text = "5";
+            this.transferAmtButton5.UseVisualStyleBackColor = true;
+            this.transferAmtButton5.Click += new System.EventHandler(this.transferAmtButton5_Click);
+            // 
+            // transferAmtButton4
+            // 
+            this.transferAmtButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton4.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton4.Location = new System.Drawing.Point(273, 303);
+            this.transferAmtButton4.Name = "transferAmtButton4";
+            this.transferAmtButton4.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton4.TabIndex = 8;
+            this.transferAmtButton4.Text = "4";
+            this.transferAmtButton4.UseVisualStyleBackColor = true;
+            this.transferAmtButton4.Click += new System.EventHandler(this.transferAmtButton4_Click);
+            // 
+            // transferAmtButton3
+            // 
+            this.transferAmtButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton3.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton3.Location = new System.Drawing.Point(183, 303);
+            this.transferAmtButton3.Name = "transferAmtButton3";
+            this.transferAmtButton3.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton3.TabIndex = 7;
+            this.transferAmtButton3.Text = "3";
+            this.transferAmtButton3.UseVisualStyleBackColor = true;
+            this.transferAmtButton3.Click += new System.EventHandler(this.transferAmtButton3_Click);
+            // 
+            // transferAmtButton2
+            // 
+            this.transferAmtButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton2.ForeColor = System.Drawing.Color.Black;
+            this.transferAmtButton2.Location = new System.Drawing.Point(93, 303);
+            this.transferAmtButton2.Name = "transferAmtButton2";
+            this.transferAmtButton2.Size = new System.Drawing.Size(84, 144);
+            this.transferAmtButton2.TabIndex = 6;
+            this.transferAmtButton2.Text = "2";
+            this.transferAmtButton2.UseVisualStyleBackColor = true;
+            this.transferAmtButton2.Click += new System.EventHandler(this.transferAmtButton2_Click);
+            // 
             // label11
             // 
             this.label11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -1647,6 +1847,7 @@
             this.label11.AutoSize = true;
             this.transfer3TableLayoutPanel.SetColumnSpan(this.label11, 5);
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(3, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(444, 300);
@@ -1663,6 +1864,7 @@
             this.transferAmtLabel.BackColor = System.Drawing.Color.White;
             this.transfer3TableLayoutPanel.SetColumnSpan(this.transferAmtLabel, 5);
             this.transferAmtLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.transferAmtLabel.ForeColor = System.Drawing.Color.Black;
             this.transferAmtLabel.Location = new System.Drawing.Point(453, 0);
             this.transferAmtLabel.Name = "transferAmtLabel";
             this.transferAmtLabel.Size = new System.Drawing.Size(444, 300);
@@ -1675,13 +1877,15 @@
             this.transfer3SubmitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.transfer3SubmitButton.BackColor = System.Drawing.Color.DodgerBlue;
             this.transfer3TableLayoutPanel.SetColumnSpan(this.transfer3SubmitButton, 4);
+            this.transfer3SubmitButton.ForeColor = System.Drawing.Color.White;
             this.transfer3SubmitButton.Location = new System.Drawing.Point(3, 453);
             this.transfer3SubmitButton.Name = "transfer3SubmitButton";
             this.transfer3SubmitButton.Size = new System.Drawing.Size(354, 144);
             this.transfer3SubmitButton.TabIndex = 2;
             this.transfer3SubmitButton.Text = "Submit";
-            this.transfer3SubmitButton.UseVisualStyleBackColor = true;
+            this.transfer3SubmitButton.UseVisualStyleBackColor = false;
             this.transfer3SubmitButton.Click += new System.EventHandler(this.transfer3SubmitButton_Click);
             // 
             // transfer3BackspaceButton
@@ -1717,6 +1921,7 @@
             this.transferAmtButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferAmtButton1.ForeColor = System.Drawing.Color.Black;
             this.transferAmtButton1.Location = new System.Drawing.Point(3, 303);
             this.transferAmtButton1.Name = "transferAmtButton1";
             this.transferAmtButton1.Size = new System.Drawing.Size(84, 144);
@@ -1724,123 +1929,6 @@
             this.transferAmtButton1.Text = "1";
             this.transferAmtButton1.UseVisualStyleBackColor = true;
             this.transferAmtButton1.Click += new System.EventHandler(this.transferAmtButton1_Click);
-            // 
-            // transferAmtButton2
-            // 
-            this.transferAmtButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton2.Location = new System.Drawing.Point(93, 303);
-            this.transferAmtButton2.Name = "transferAmtButton2";
-            this.transferAmtButton2.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton2.TabIndex = 6;
-            this.transferAmtButton2.Text = "2";
-            this.transferAmtButton2.UseVisualStyleBackColor = true;
-            this.transferAmtButton2.Click += new System.EventHandler(this.transferAmtButton2_Click);
-            // 
-            // transferAmtButton3
-            // 
-            this.transferAmtButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton3.Location = new System.Drawing.Point(183, 303);
-            this.transferAmtButton3.Name = "transferAmtButton3";
-            this.transferAmtButton3.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton3.TabIndex = 7;
-            this.transferAmtButton3.Text = "3";
-            this.transferAmtButton3.UseVisualStyleBackColor = true;
-            this.transferAmtButton3.Click += new System.EventHandler(this.transferAmtButton3_Click);
-            // 
-            // transferAmtButton4
-            // 
-            this.transferAmtButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton4.Location = new System.Drawing.Point(273, 303);
-            this.transferAmtButton4.Name = "transferAmtButton4";
-            this.transferAmtButton4.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton4.TabIndex = 8;
-            this.transferAmtButton4.Text = "4";
-            this.transferAmtButton4.UseVisualStyleBackColor = true;
-            this.transferAmtButton4.Click += new System.EventHandler(this.transferAmtButton4_Click);
-            // 
-            // transferAmtButton5
-            // 
-            this.transferAmtButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton5.Location = new System.Drawing.Point(363, 303);
-            this.transferAmtButton5.Name = "transferAmtButton5";
-            this.transferAmtButton5.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton5.TabIndex = 9;
-            this.transferAmtButton5.Text = "5";
-            this.transferAmtButton5.UseVisualStyleBackColor = true;
-            this.transferAmtButton5.Click += new System.EventHandler(this.transferAmtButton5_Click);
-            // 
-            // transferAmtButton6
-            // 
-            this.transferAmtButton6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton6.Location = new System.Drawing.Point(453, 303);
-            this.transferAmtButton6.Name = "transferAmtButton6";
-            this.transferAmtButton6.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton6.TabIndex = 10;
-            this.transferAmtButton6.Text = "6";
-            this.transferAmtButton6.UseVisualStyleBackColor = true;
-            this.transferAmtButton6.Click += new System.EventHandler(this.transferAmtButton6_Click);
-            // 
-            // transferAmtButton7
-            // 
-            this.transferAmtButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton7.Location = new System.Drawing.Point(543, 303);
-            this.transferAmtButton7.Name = "transferAmtButton7";
-            this.transferAmtButton7.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton7.TabIndex = 11;
-            this.transferAmtButton7.Text = "7";
-            this.transferAmtButton7.UseVisualStyleBackColor = true;
-            this.transferAmtButton7.Click += new System.EventHandler(this.transferAmtButton7_Click);
-            // 
-            // transferAmtButton8
-            // 
-            this.transferAmtButton8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton8.Location = new System.Drawing.Point(633, 303);
-            this.transferAmtButton8.Name = "transferAmtButton8";
-            this.transferAmtButton8.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton8.TabIndex = 12;
-            this.transferAmtButton8.Text = "8";
-            this.transferAmtButton8.UseVisualStyleBackColor = true;
-            this.transferAmtButton8.Click += new System.EventHandler(this.transferAmtButton8_Click);
-            // 
-            // transferAmtButton9
-            // 
-            this.transferAmtButton9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton9.Location = new System.Drawing.Point(723, 303);
-            this.transferAmtButton9.Name = "transferAmtButton9";
-            this.transferAmtButton9.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton9.TabIndex = 13;
-            this.transferAmtButton9.Text = "9";
-            this.transferAmtButton9.UseVisualStyleBackColor = true;
-            this.transferAmtButton9.Click += new System.EventHandler(this.transferAmtButton9_Click);
-            // 
-            // transferAmtButton0
-            // 
-            this.transferAmtButton0.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.transferAmtButton0.Location = new System.Drawing.Point(813, 303);
-            this.transferAmtButton0.Name = "transferAmtButton0";
-            this.transferAmtButton0.Size = new System.Drawing.Size(84, 144);
-            this.transferAmtButton0.TabIndex = 14;
-            this.transferAmtButton0.Text = "0";
-            this.transferAmtButton0.UseVisualStyleBackColor = true;
-            this.transferAmtButton0.Click += new System.EventHandler(this.transferAmtButton0_Click);
             // 
             // transferCodeTableLayoutPanel
             // 
@@ -1871,6 +1959,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.transferCodeLabel.AutoSize = true;
             this.transferCodeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F);
+            this.transferCodeLabel.ForeColor = System.Drawing.Color.Black;
             this.transferCodeLabel.Location = new System.Drawing.Point(3, 0);
             this.transferCodeLabel.Name = "transferCodeLabel";
             this.transferCodeLabel.Size = new System.Drawing.Size(894, 510);
@@ -1883,12 +1972,14 @@
             this.transferCodeConfirmButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.transferCodeConfirmButton.BackColor = System.Drawing.Color.DodgerBlue;
+            this.transferCodeConfirmButton.ForeColor = System.Drawing.Color.White;
             this.transferCodeConfirmButton.Location = new System.Drawing.Point(3, 513);
             this.transferCodeConfirmButton.Name = "transferCodeConfirmButton";
             this.transferCodeConfirmButton.Size = new System.Drawing.Size(894, 84);
             this.transferCodeConfirmButton.TabIndex = 1;
             this.transferCodeConfirmButton.Text = "Confirm";
-            this.transferCodeConfirmButton.UseVisualStyleBackColor = true;
+            this.transferCodeConfirmButton.UseVisualStyleBackColor = false;
             this.transferCodeConfirmButton.Click += new System.EventHandler(this.transferCodeConfirmButton_Click);
             // 
             // errorTableLayoutPanel
@@ -1946,21 +2037,21 @@
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(900, 600);
             this.ControlBox = false;
-            this.Controls.Add(this.errorTableLayoutPanel);
-            this.Controls.Add(this.transferCodeTableLayoutPanel);
-            this.Controls.Add(this.transfer3TableLayoutPanel);
-            this.Controls.Add(this.transfer2TableLayoutPanel);
-            this.Controls.Add(this.withdraw2TableLayoutPanel);
-            this.Controls.Add(this.transfer1TableLayoutPanel);
-            this.Controls.Add(this.withdraw1TableLayoutPanel);
-            this.Controls.Add(this.menuTableLayoutPanel);
-            this.Controls.Add(this.deposit1TableLayoutPanel);
-            this.Controls.Add(this.pinTableLayoutPanel);
-            this.Controls.Add(this.deposit2TableLayoutPanel);
-            this.Controls.Add(this.depositCodeTableLayoutPanel);
-            this.Controls.Add(this.check1TableLayoutPanel);
-            this.Controls.Add(this.check2TableLayoutPanel);
             this.Controls.Add(this.withdrawCodeTableLayoutPanel);
+            this.Controls.Add(this.withdraw2TableLayoutPanel);
+            this.Controls.Add(this.withdraw1TableLayoutPanel);
+            this.Controls.Add(this.transfer3TableLayoutPanel);
+            this.Controls.Add(this.pinTableLayoutPanel);
+            this.Controls.Add(this.menuTableLayoutPanel);
+            this.Controls.Add(this.deposit2TableLayoutPanel);
+            this.Controls.Add(this.check2TableLayoutPanel);
+            this.Controls.Add(this.check1TableLayoutPanel);
+            this.Controls.Add(this.transferCodeTableLayoutPanel);
+            this.Controls.Add(this.transfer2TableLayoutPanel);
+            this.Controls.Add(this.transfer1TableLayoutPanel);
+            this.Controls.Add(this.depositCodeTableLayoutPanel);
+            this.Controls.Add(this.deposit1TableLayoutPanel);
+            this.Controls.Add(this.errorTableLayoutPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";

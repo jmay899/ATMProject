@@ -16,11 +16,11 @@ Once done, the user can press "sign out" at the bottom to exit the ATM.
 ## How to run
 After cloning the project, run the ATMProject.exe to open the program.
 
-Enter PIN "1111" to log-in as a dummy customer (users will be able to create their own customer in a future update).
+Enter PIN "1111" to log-in as a dummy customer.
 
 Deposit, withdraw, transfer, and check your balance at your choosing.
 
 
-
-
 **Note**: There is a $3000 daily limit on transactions for each customer's account.
+
+#The database for the project is currently down, so none of the functions will work.

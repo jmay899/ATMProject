@@ -1,5 +1,8 @@
 # Jacob Mayfield's ATM Project
 
+## NOTE: The database for the project is currently down, so none of the functions will work.
+
+
 ## About the project
 
 This is an ATM interface, created for CSC 340 at EKU. 
@@ -22,5 +25,3 @@ Deposit, withdraw, transfer, and check your balance at your choosing.
 
 
 **Note**: There is a $3000 daily limit on transactions for each customer's account.
-
-#The database for the project is currently down, so none of the functions will work.
